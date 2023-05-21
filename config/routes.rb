@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   resources :likes
   resources :photos
 
-  #get "/:username" => "users#show"
+  get "/:username" => "users#show"
   
 end
